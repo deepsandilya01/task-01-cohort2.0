@@ -1,0 +1,80 @@
+@font-face {
+  font-family: lembo;
+  src: url(./Lambotype-Variable.woff);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#car {
+  font-family: lembo;
+  color: rgb(249, 6, 6);
+  text-shadow:2px 2px 5px rgba(25, 8, 92, 0.882), -2px -2px 5px rgba(116, 124, 3, 0.675) ;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.box {
+  
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  /* Background image */
+  background-image: url("https://images.pexels.com/photos/18572796/pexels-photo-18572796.jpeg");
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat  iamge repeat nhi hogi is condition mejab size contain rkhe tab */
+  padding-top: 50px;
+  
+
+}
+
+button{
+  background:linear-gradient( rgba(0, 0, 0, 0.287) , rgba(255, 0, 0, 0.209));
+  padding: 3px 7px;
+  border-radius:5px;
+}
+
+.box a{
+    text-decoration: none; /* link ke neeche underline hata di */
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 500; /* thoda mota (semibold) font */
+    transition: 0.3s; /* hover effect smoothly 0.3 second me chalega */
+    border-radius:5px;
+}
+
+button:hover {
+  background: linear-gradient( black , red);
+  transform: scale(1.05);
+}
+
+.login{
+  background: transparent;
+  height: 200px;
+  width: 250px;
+  margin: 10px auto; /* center me le jayega*/
+  border: 2px solid rgba(153, 215, 10, 0.828);
+  border-radius: 10px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #162b45;
+  color: white;
+  padding: 7px 20px;
+  font-size: 11px;
+}
